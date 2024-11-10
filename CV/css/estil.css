@@ -1,0 +1,184 @@
+.cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    margin-bottom: 0;
+}
+
+.foto_perfil {
+    margin-right: 30px;
+}
+
+.foto_perfil img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.nom h1, .nom h2 {
+    margin: 5px 0;
+    color: #333;
+}
+
+.nom h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.nom h2 {
+    font-size: 40px;
+    font-weight: normal;
+    color: #3d2b8a;
+}
+
+.contingut {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont_esquerra {
+    width: 40%;
+    background-color: #e0e0e0;
+    padding: 20px;
+}
+
+.cont_dreta {
+    width: 60%;
+    background-color: #d0d0d0;
+    padding: 20px;
+}
+
+.contingut h3{
+    display: flex; 
+    justify-content: center;
+    margin: 0;
+    padding-top: 5px;
+    font-size: 30px;
+    color: #3d2b8a;
+    margin-bottom: 0;
+}
+
+.contingut hr {
+    width: 100%;
+    border: 0;
+    border-top: 2px solid #333;
+    margin: 10px 0;
+}
+
+.cont_esquerra img{
+    margin-bottom: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.cont_esquerra p{
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #333;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 55%;
+    background-color: #182441;
+    border-radius: 2px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nivells_skills {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.idiomes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nivells_idiomes {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cont_dreta img{
+    display: flex;
+    justify-content: bottom;
+    width: 30px;
+    height: 30px;
+}
+
+.cont_dreta p{
+    margin-top: 0;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    color: #333;
+}
+
+.introduccio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.formacio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.exemples_form hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 1px 0; 
+}
+
+.exemples_exp hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #333;
+    margin: 1px 0;
+}
